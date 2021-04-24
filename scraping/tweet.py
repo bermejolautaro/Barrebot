@@ -17,7 +17,7 @@ user = api.get_user("@AgusBarreto97")
 print(user.screen_name)
 print(user.followers_count)
 
-public_tweets = api.user_timeline("@AgusBarreto97", count=1340, tweet_mode="extended")
+public_tweets = api.user_timeline("@AgusBarreto97", count=2000, tweet_mode="extended")
 
 tweets_lista = open("tweets-lista.csv", "wb")
 
